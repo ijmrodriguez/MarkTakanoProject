@@ -9,6 +9,7 @@
 
     <Spinner
         android:id="@+id/spinner"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -21,9 +22,9 @@
         android:text="Confirm" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewOutput"
         android:layout_width="match_parent"
-        android:layout_height="617dp"
+        android:layout_height="450dp"
         android:layout_marginTop="20dp"
         android:text="" />
 
