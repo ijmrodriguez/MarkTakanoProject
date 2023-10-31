@@ -38,8 +38,14 @@
         tools:layout_editor_absoluteY="158dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/informationBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next" />
+        android:text="info" />
+
+    <Button
+        android:id="@+id/solutionPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sol button" />
 </LinearLayout>
