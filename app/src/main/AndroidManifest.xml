@@ -13,13 +13,13 @@
         android:theme="@style/Theme.MarkTakanoProject"
         tools:targetApi="31">
         <activity
-            android:name=".solutionsScreen"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".instructionsScreen"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".solutionsScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

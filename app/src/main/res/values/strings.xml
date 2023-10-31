@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">MarkTakanoProject</string>
+    <string-array name = "stringArray">
+        <item>Where are you?</item>
+        <item>Moreno Valley</item>
+        <item>Riverside</item>
+        <item>Fontana</item>
+        <item>Corona</item>
+        <item>San Bernardino</item>
+    </string-array>
+    <string name="app_name" />
 </resources>
