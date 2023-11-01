@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".solutionsScreen">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthcare Centers and Providers" />
+
     <Spinner
         android:id="@+id/spinner"
         android:layout_marginTop="20dp"
@@ -24,8 +30,14 @@
     <TextView
         android:id="@+id/textViewOutput"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="225dp"
         android:layout_marginTop="20dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewOutput2"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
         android:text="" />
 
 </LinearLayout>
