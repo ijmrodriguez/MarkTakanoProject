@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".solutionsScreen">
+    android:background="#FFC0CB">
 
     <TextView
         android:id="@+id/textView2"
@@ -33,6 +33,12 @@
         android:layout_height="225dp"
         android:layout_marginTop="20dp"
         android:text="" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return Home" />
 
     <TextView
         android:id="@+id/textViewOutput2"
