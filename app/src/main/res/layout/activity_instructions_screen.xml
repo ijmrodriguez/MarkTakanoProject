@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".instructionsScreen">
+    android:orientation="vertical"
+    tools:context=".instructionsScreen"
+    android:background="#FFC0CB"
+    tools:ignore="ExtraText">>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="0.7"
+        android:textSize="46sp"
+        android:text="Information" />
+
+    <TextView
+        android:id="@+id/informational"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:textSize="19sp"
+        android:text="Members of the LGBTQ+ community generally face a great fear of “coming out” to their loved ones. Out of fear of discrimination, and a lack of acceptance, LGBTQ youth are significantly more likely to experience depression, PTSD, substance abuse, and even suicide. There is also a lack of LGBTQ-friendly sex education, so they are at a much higher risk of STDs.
+
+They also face discrimination when accessing healthcare. They have to worry about being mistreated or even outright denied service. It is not uncommon for same-sex couples to be denied, or for facilities to turn away those who disclose their sexual orientation. Everyone should be able to have equal access to healthcare, as this should be a basic unquestioned human right.
+" />
+
+    <TextView
+        android:id="@+id/linkTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Source 1: www.NLH.com"
+        android:autoLink="web" />
+    [12:53 AM]
+    <TextView
+        android:id="@+id/linkTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source 2: www.americanprogress.com"
+        android:textSize="28sp"
+        android:autoLink="web" />
+
+    <TextView
+        android:id="@+id/linkTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source 3: www.cdc.com"
+        android:textSize="28sp"
+        android:autoLink="web" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:text="Home" />
+</LinearLayout>
