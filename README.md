@@ -1,9 +1,9 @@
-Project Name: Mark Takano Project.
+Project Name: Mark Takano Project
 
-Class: Advanced Java Topics with Android Studio
+Class Name: Advanced Java Topics with Android Studio
 
 Date: October 31, 2023.
 
-Description: An app for the CAC fair that made it more accessible for LGBTQ+ communities to gain healthcare opportunities and providers.
+Description of Assignment: An app for the CAC fair that made it more accessible for LGBTQ+ communities to gain healthcare opportunities and providers, via information sharing.
 
-Partners & Info: Jasmine and Jonathan were my partners. I did the first part of the solutions page, and the second one as well.
+Partners & Info: Rico and Jasmine were my partners. I did the home page.
